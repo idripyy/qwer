@@ -44,20 +44,20 @@ for i,v in pairs(game.Players:GetChildren()) do
                     Box.Visible = true
 
                     if v.TeamColor == lplr.TeamColor then
-                        BoxOutline.Visible = false
-                        Box.Visible = false
+                        BoxOutline.Visible = true
+                        Box.Visible = true
                     else
                         BoxOutline.Visible = true
                         Box.Visible = true
                     end
 
                 else
-                    BoxOutline.Visible = false
-                    Box.Visible = false
+                    BoxOutline.Visible = true
+                    Box.Visible = true
                 end
             else
-                BoxOutline.Visible = false
-                Box.Visible = false
+                BoxOutline.Visible = true
+                Box.Visible = true
             end
         end)
     end
@@ -100,20 +100,20 @@ game.Players.PlayerAdded:Connect(function(v)
                     Box.Visible = true
 
                     if v.TeamColor == lplr.TeamColor then
-                        BoxOutline.Visible = false
-                        Box.Visible = false
+                        BoxOutline.Visible = true
+                        Box.Visible = true
                     else
                         BoxOutline.Visible = true
                         Box.Visible = true
                     end
 
                 else
-                    BoxOutline.Visible = false
-                    Box.Visible = false
+                    BoxOutline.Visible = true
+                    Box.Visible = true
                 end
             else
-                BoxOutline.Visible = false
-                Box.Visible = false
+                BoxOutline.Visible = true
+                Box.Visible = true
             end
         end)
     end
