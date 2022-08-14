@@ -12,7 +12,7 @@ for i,v in pairs(game.Players:GetChildren()) do
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = false
     BoxOutline.Color = Color3.new((153,54,156)
-    BoxOutline.Thickness = 3
+    BoxOutline.Thickness = 1
     BoxOutline.Transparency = 1
     BoxOutline.Filled = false
 
@@ -68,7 +68,7 @@ game.Players.PlayerAdded:Connect(function(v)
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = false
     BoxOutline.Color = Color3.new((153,54,156)
-    BoxOutline.Thickness = 3
+    BoxOutline.Thickness = 1
     BoxOutline.Transparency = 1
     BoxOutline.Filled = false
 
