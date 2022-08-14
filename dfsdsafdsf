@@ -11,14 +11,14 @@ local LegOff = Vector3.new(0,3,0)
 for i,v in pairs(game.Players:GetChildren()) do
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = false
-    BoxOutline.Color = Color3.new(0,0,0)
+    BoxOutline.Color = Color3.new((153,54,156)
     BoxOutline.Thickness = 3
     BoxOutline.Transparency = 1
     BoxOutline.Filled = false
 
     local Box = Drawing.new("Square")
     Box.Visible = false
-    Box.Color = Color3.new(255,0,0)
+    Box.Color = Color3.new((153,54,156)
     Box.Thickness = 1
     Box.Transparency = 1
     Box.Filled = false
@@ -67,14 +67,14 @@ end
 game.Players.PlayerAdded:Connect(function(v)
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = false
-    BoxOutline.Color = Color3.new(1,1,1)
+    BoxOutline.Color = Color3.new((153,54,156)
     BoxOutline.Thickness = 3
     BoxOutline.Transparency = 1
     BoxOutline.Filled = false
 
     local Box = Drawing.new("Square")
     Box.Visible = false
-    Box.Color = Color3.new(1,1,1)
+    Box.Color = Color3.new((153,54,156)
     Box.Thickness = 1
     Box.Transparency = 1
     Box.Filled = false
