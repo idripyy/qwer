@@ -138,11 +138,11 @@ end
 if _G.DefaultSettings == true then
     _G.TeamCheck = true
     _G.ESPVisible = true
-    _G.TextColor = Color3.fromRGB(0, 0, 0)
+    _G.TextColor = Color3.fromRGB(153, 54, 156)
     _G.TextSize = 14
     _G.Center = true
     _G.Outline = false
-    _G.OutlineColor = Color3.fromRGB(0, 0, 0)
+    _G.OutlineColor = Color3.fromRGB(153, 54, 156)
     _G.DisableKey = Enum.KeyCode.Q
     _G.TextTransparency = 0.75
 end
